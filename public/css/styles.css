@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.2;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.website-meta {
+  margin-top: 1em;
+}
+
+.artist-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.album-container {
+  margin: 0.3em;
+  text-align: center;
+  padding: 0.6em;
+}
+.album-cover {
+  width: 90%;
+  height: auto;
+  max-width: 160px;
+  margin-bottom: 0.3em;
+}
+.album-title {
+  font-size: 0.7em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+.album-artist {
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.album-view-btn {
+  width: 100px;
+  text-transform: uppercase;
+  margin-top: 9px;
+  font-weight: 400;
+}
