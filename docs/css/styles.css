@@ -167,11 +167,18 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, auto);
   }
+
+  footer {
+    font-size: 1.2em;
+  }
 }
 
 @media (min-width: 1024px) {
   .artist-container {
     display: grid;
     grid-template-columns: repeat(5, auto);
+  }
+  footer {
+    font-size: 2em;
   }
 }
