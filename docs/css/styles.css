@@ -9,6 +9,8 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   line-height: 1.2;
+  color: rgba(0, 0, 0, 0.99);
+  background-color: rgba(241, 241, 241, 0.95);
 }
 
 img {
@@ -55,6 +57,31 @@ img {
   width: 100px;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+footer {
+  color: hsl(0, 0%, 91%);
+  /* background-color: hsla(0, 0%, 0%, 0.9); */
+  background-color: #d82332;
+  height: 15vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.social-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin: 0 auto;
+  font-size: 2.4em;
+}
+
+.social-nav i {
+  margin: 0.3em;
 }
 
 /*  */
