@@ -120,6 +120,23 @@ footer {
   margin-top: 0.5em;
 }
 
+/* martin */
+
+.stack {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin: 0 auto;
+  font-size: 2em;
+}
+.stack i {
+  color: rgba(0, 0, 0, 0.99);
+  margin: 0.3em;
+}
+.stack i:hover {
+  color: #d82323;
+}
+
 /*  */
 @media (min-width: 480px) {
   .artist-container {
