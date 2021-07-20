@@ -81,7 +81,7 @@ footer {
   color: hsl(0, 0%, 91%);
   /* background-color: hsla(0, 0%, 0%, 0.9); */
   background-color: #d82323;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
