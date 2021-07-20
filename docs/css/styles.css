@@ -125,6 +125,10 @@ footer {
   color: #d82323;
 }
 
+.martin-text {
+  margin-bottom: 0.5em;
+}
+
 /* Bio SW */
 
 .bio-container {
