@@ -13,14 +13,23 @@ body {
   background-color: rgba(241, 241, 241, 0.95);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #d82323;
+}
+
 img {
   width: 100%;
   height: auto;
 }
+
 a {
   text-decoration: none;
 }
-/* wrapper */
 
 /* header */
 header {
@@ -35,10 +44,16 @@ header {
   width: 60vw;
   margin: 0 auto;
 }
-
 .navbar a {
   margin: 1em;
+  color: rgba(0, 0, 0, 0.99);
 }
+.navbar a:hover {
+  margin: 1em;
+  color: #d82323;
+  font-weight: 600;
+}
+
 .website-meta {
   margin-top: 1em;
 }
@@ -72,7 +87,6 @@ header {
   font-weight: 400;
   margin-bottom: 1em;
 }
-
 .album-view-btn {
   width: 100px;
   text-transform: uppercase;
@@ -82,8 +96,8 @@ header {
 footer {
   color: hsl(0, 0%, 91%);
   /* background-color: hsla(0, 0%, 0%, 0.9); */
-  background-color: #d82323;
-  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.99);
+  height: 10vh;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -101,13 +115,12 @@ footer {
   margin: 0 auto;
   font-size: 2em;
 }
-
 .social-nav a {
   color: hsl(0, 0%, 91%);
   margin: 0.3em;
 }
 .social-nav a:hover {
-  color: rgba(0, 0, 0, 0.99);
+  color: #d82323;
 }
 
 /* Bio SW */
@@ -125,8 +138,8 @@ footer {
 /* martin */
 
 .stack {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
   width: 30vw;
   margin: 0 auto;
   font-size: 2em;
