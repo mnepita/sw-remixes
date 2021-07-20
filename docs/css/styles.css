@@ -108,11 +108,12 @@ footer {
   align-content: center;
   text-align: center;
   font-weight: 500;
+  padding: 1em;
 }
 
 .social-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 30vw;
   margin: 0 auto;
   font-size: 2em;
