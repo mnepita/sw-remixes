@@ -167,8 +167,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, auto);
   }
-
-  footer {
+  footer p {
     font-size: 1.2em;
   }
 }
@@ -178,7 +177,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, auto);
   }
-  footer {
+  footer p {
     font-size: 2em;
   }
 }
