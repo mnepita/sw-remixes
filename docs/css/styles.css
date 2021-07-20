@@ -81,11 +81,13 @@ header {
 .album-title {
   font-weight: 600;
   margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.99);
 }
 .album-artist {
   font-size: 0.9em;
   font-weight: 400;
   margin-bottom: 1em;
+  color: rgba(0, 0, 0, 0.99);
 }
 .album-view-btn {
   width: 100px;
@@ -97,7 +99,7 @@ footer {
   color: hsl(0, 0%, 91%);
   /* background-color: hsla(0, 0%, 0%, 0.9); */
   background-color: rgba(0, 0, 0, 0.99);
-  height: 10vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
