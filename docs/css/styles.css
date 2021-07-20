@@ -17,7 +17,15 @@ img {
   width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+}
+/* wrapper */
+
 /* header */
+header {
+  padding: 1em;
+}
 .website-meta {
   margin-top: 1em;
 }
@@ -61,7 +69,7 @@ img {
 footer {
   color: hsl(0, 0%, 91%);
   /* background-color: hsla(0, 0%, 0%, 0.9); */
-  background-color: #d82332;
+  background-color: #d82323;
   height: 20vh;
   display: flex;
   flex-flow: column nowrap;
@@ -83,7 +91,6 @@ footer {
 .social-nav a {
   color: hsl(0, 0%, 91%);
   margin: 0.3em;
-  text-decoration: none;
 }
 .social-nav a:hover {
   color: rgba(0, 0, 0, 0.99);
